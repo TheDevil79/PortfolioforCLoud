@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vaibhav — Computer Science Student & Developer at VIT Chennai (9.53 CGPA). Full-stack, AI/ML, IoT, and Cloud." />
+  <meta name="author" content="Vaibhav" />
+  <title>Vaibhav — Computer Science Student & Developer</title>
+
+  <!-- Typography: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" crossorigin href="./assets/index-0Ga8Ksig.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-name">Vaibhav</span>
+        <span class="brand-role">/ CS @ VIT Chennai</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">01 About</a>
+        <a href="#projects" class="nav-link">02 Projects</a>
+        <a href="#skills" class="nav-link">03 Skills</a>
+        <a href="#experience" class="nav-link">04 Experience &amp; Hackathons</a>
+        <a href="#achievements" class="nav-link">05 Achievements</a>
+        <a href="#education" class="nav-link">06 Education</a>
+        <a href="#contact" class="nav-link">07 Contact</a>
+        <a href="resume.pdf" class="nav-link nav-resume-btn" id="resumeNavBtn" target="_blank" rel="noreferrer">Resume ↗</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="section hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Content -->
+          <div class="hero-main">
+            <div class="status-pill">
+              <span class="status-dot"></span>
+              <span>Currently building &amp; learning</span>
+              <span class="divider">/</span>
+              <span class="highlight">CGPA 9.53</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm Vaibhav.
+            </h1>
+            <p class="hero-subtitle">
+              Computer Science Student &bull; Developer &bull; Builder
+            </p>
+
+            <p class="hero-description">
+              I build software, AI-powered systems, and IoT solutions that turn interesting ideas into working products. Currently pursuing Computer Science at <strong>VIT Chennai</strong>.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects ↓</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+              <a href="resume.pdf" class="btn btn-ghost" id="heroResumeBtn" target="_blank" rel="noreferrer">Resume ↗</a>
+            </div>
+
+            <div class="hero-meta">
+              <span class="meta-label">Connect:</span>
+              <a href="https://github.com/TheDevil79" target="_blank" rel="noreferrer" class="meta-link">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/vaibhav-bisaria-3836a93b5/" target="_blank" rel="noreferrer" class="meta-link">LinkedIn ↗</a>
+              <a href="mailto:vaibhav.student@example.com" class="meta-link">Email</a>
+            </div>
+          </div>
+
+          <!-- Right Column: Subtle Developer Terminal Panel (Desktop) -->
+          <div class="hero-terminal-wrap" aria-hidden="true">
+            <div class="hero-terminal">
+              <div class="terminal-header">
+                <div class="terminal-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <span class="terminal-title">vaibhav@portfolio ~</span>
+              </div>
+              <div class="terminal-body">
+                <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">whoami</span></div>
+                <div class="t-output">vaibhav</div>
+
+                <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">focus</span></div>
+                <div class="t-output t-accent">AI &middot; CLOUD &middot; IOT</div>
+
+                <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">projects --count</span></div>
+                <div class="t-output">05</div>
+
+                <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">status</span></div>
+                <div class="t-output t-status"><span class="t-status-dot"></span> building</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01 About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-num">01.</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a Computer Science undergraduate at <strong>VIT Chennai</strong> with a passion for building practical, end-to-end applications across software, artificial intelligence, cloud infrastructure, and hardware systems.
+            </p>
+            <p>
+              I enjoy tackling algorithmic problems, building prototypes during fast-paced 24-hour hackathons, and turning complex engineering ideas into clean, functional solutions.
+            </p>
+
+            <div class="interests-block">
+              <h3 class="subsection-title">Core Areas of Interest</h3>
+              <div class="tag-cloud">
+                <span class="tag">Full-stack development</span>
+                <span class="tag">AI / Machine Learning</span>
+                <span class="tag">Cloud computing</span>
+                <span class="tag">IoT &amp; Hardware Automation</span>
+                <span class="tag">Computer vision</span>
+                <span class="tag">Hackathons</span>
+                <span class="tag">Problem solving</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-panel">
+            <div class="stat-card">
+              <span class="stat-num">9.53</span>
+              <span class="stat-label">CGPA</span>
+              <span class="stat-detail">VIT Chennai (Sem 1: 9.40 | Sem 2: 9.64)</span>
+            </div>
+
+            <div class="stat-card">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Key Projects Built</span>
+              <span class="stat-detail">AI, IoT, Full-Stack &amp; Relational DBs</span>
+            </div>
+
+            <div class="stat-card">
+              <span class="stat-num">100+</span>
+              <span class="stat-label">LeetCode Problems</span>
+              <span class="stat-detail">Data Structures &amp; Algorithms in C / C++</span>
+            </div>
+
+            <div class="stat-card">
+              <span class="stat-num">24h</span>
+              <span class="stat-label">Hackathon Experience</span>
+              <span class="stat-detail">Geminathon 2026 — Disaster Response</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-num">02.</span>
+          <h2 class="section-title">Projects</h2>
+        </div>
+
+        <p class="section-intro">
+          Selected software and hardware systems built for hackathons, research, and real-world utility.
+        </p>
+
+        <!-- Tier 1: Dominant Featured Project — Sentinel -->
+        <article class="featured-project-card">
+          <div class="featured-header">
+            <div class="featured-tag-wrap">
+              <span class="featured-badge">
+                <svg class="badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+                Featured Project
+              </span>
+              <span class="event-badge">Geminathon 2026</span>
+              <span class="category-badge">AI &bull; Disaster Management &bull; Hackathon</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/TheDevil79/Disaster-Management" target="_blank" rel="noreferrer" class="code-link" aria-label="Sentinel GitHub">GitHub ↗</a>
+            </div>
+          </div>
+
+          <div class="featured-body">
+            <h3 class="featured-title">Sentinel</h3>
+            <p class="featured-tagline">AI-Powered Crisis Response Platform for Natural Disasters</p>
+            <p class="project-desc">
+              An AI-powered crisis response platform designed for natural disaster mitigation. The system ingests citizen disaster reports, applies Gemini API for real-time NLP triage and severity assessment, and coordinates incident visualization with automated victim-to-shelter resource matching.
+            </p>
+
+            <div class="features-list-block">
+              <h4 class="features-heading">Key Capabilities &amp; Features:</h4>
+              <ul class="features-grid">
+                <li>Citizen disaster reporting with geolocation metadata</li>
+                <li>NLP triage and urgency extraction via Gemini API</li>
+                <li>AI severity scoring and multi-language translation</li>
+                <li>Real-time crisis mapping and victim/resource visualization</li>
+                <li>Responder coordination and mission dispatching</li>
+                <li>Emergency shelter and relief resource matching</li>
+              </ul>
+            </div>
+
+            <div class="tech-stack-row">
+              <span class="tech-pill">Gemini API</span>
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Maps API</span>
+              <span class="tech-pill">AI / NLP</span>
+              <span class="tech-pill">Tailwind CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tier 2: Strong Visual Treatment — EvidenceLens & Smart Energy Classroom -->
+        <div class="tier-two-grid">
+          <!-- EvidenceLens -->
+          <article class="project-card tier-two-card">
+            <div class="card-header">
+              <div class="card-domain-badge">
+                <svg class="domain-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21 21-4.3-4.3"/><circle cx="11" cy="11" r="8"/><path d="m9 11 2 2 4-4"/></svg>
+                <span>AI &bull; Fact Verification &bull; Research</span>
+              </div>
+              <div class="card-links">
+                <a href="https://github.com/TheDevil79/EvidenceLens" target="_blank" rel="noreferrer" class="code-link">GitHub ↗</a>
+              </div>
+            </div>
+
+            <h3 class="card-title">EvidenceLens</h3>
+            <p class="card-tagline">AI-Assisted Fact Verification &amp; Evidence Synthesis</p>
+            <p class="project-desc">
+              An AI-assisted evidence verification platform that moves beyond black-box generative answers. The system systematically searches verified sources and presents supporting evidence and citations so users can clearly understand why a claim is considered true, false, or uncertain.
+            </p>
+
+            <div class="card-highlight-box">
+              <span class="highlight-title">Core Principle:</span>
+              <p>Evidence-backed AI rather than answer-only AI.</p>
+            </div>
+
+            <div class="tech-stack-row">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Gemini API</span>
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">TypeScript</span>
+              <span class="tech-pill">REST APIs</span>
+            </div>
+          </article>
+
+          <!-- Smart Energy Classroom -->
+          <article class="project-card tier-two-card">
+            <div class="card-header">
+              <div class="card-domain-badge">
+                <svg class="domain-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg>
+                <span>IoT &bull; Computer Vision &bull; Automation</span>
+              </div>
+              <div class="card-links">
+                <a href="https://github.com/TheDevil79/Smart-Energy-Classroom" target="_blank" rel="noreferrer" class="code-link">GitHub ↗</a>
+              </div>
+            </div>
+
+            <h3 class="card-title">Smart Energy Classroom</h3>
+            <p class="card-tagline">Autonomous Computer Vision &amp; Appliance Control System</p>
+            <p class="project-desc">
+              A smart classroom system that detects occupancy and human distribution using computer vision and automatically controls electrical appliances (fans and lights) through microcontrollers and relay modules.
+            </p>
+
+            <ul class="card-features">
+              <li>Human and pose detection via MediaPipe &amp; OpenCV</li>
+              <li>Autonomous light &amp; fan relay switching</li>
+              <li>Serial communication bridge with Arduino</li>
+              <li>Local monitoring dashboard for energy analytics</li>
+            </ul>
+
+            <div class="tech-stack-row">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">MediaPipe</span>
+              <span class="tech-pill">OpenCV</span>
+              <span class="tech-pill">Flask</span>
+              <span class="tech-pill">Arduino</span>
+              <span class="tech-pill">Relay Module</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- Tier 3: Compact Projects — National Health Vault & Library Management System -->
+        <div class="tier-three-grid">
+          <!-- National Health Vault -->
+          <article class="project-card tier-three-card">
+            <div class="card-header">
+              <span class="category-badge">Full Stack &bull; Healthcare &bull; Web</span>
+              <div class="card-links">
+                <a href="https://github.com/SAMJOD07-devz/National-Health-Vault" target="_blank" rel="noreferrer" class="code-link">GitHub ↗</a>
+              </div>
+            </div>
+            <h3 class="card-title">National Health Vault</h3>
+            <p class="card-tagline">Role-Based Digital Health Records Platform</p>
+            <p class="project-desc">
+              A full-stack digital healthcare records platform designed to organize and manage patient health information, reports, and medication histories with granular role-based access for patients, doctors, nurses, and admins.
+            </p>
+            <div class="tech-stack-row">
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">TypeScript</span>
+              <span class="tech-pill">Node.js</span>
+              <span class="tech-pill">PostgreSQL</span>
+              <span class="tech-pill">Prisma</span>
+              <span class="tech-pill">Supabase</span>
+            </div>
+          </article>
+
+          <!-- Library Management System -->
+          <article class="project-card tier-three-card">
+            <div class="card-header">
+              <span class="category-badge">Database &bull; Software &bull; EER</span>
+              <div class="card-links">
+                <a href="https://github.com/TheDevil79/library-management-system" target="_blank" rel="noreferrer" class="code-link">GitHub ↗</a>
+              </div>
+            </div>
+            <h3 class="card-title">Library Management System</h3>
+            <p class="card-tagline">Normalized Relational Database &amp; Circulation Architecture</p>
+            <p class="project-desc">
+              A database-driven library management system based on rigorous relational database concepts. Implements entity-relationship (ER/EER) modeling, 3NF schema normalization, multi-copy book tracking, and transaction safety.
+            </p>
+            <div class="tech-stack-row">
+              <span class="tech-pill">SQL</span>
+              <span class="tech-pill">Relational DB</span>
+              <span class="tech-pill">ER/EER Modeling</span>
+              <span class="tech-pill">3NF Normalization</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-num">03.</span>
+          <h2 class="section-title">Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category-card">
+            <h3 class="skill-cat-title">Languages</h3>
+            <div class="skill-items">
+              <span class="skill-badge">C</span>
+              <span class="skill-badge highlight">C++</span>
+              <span class="skill-badge">Java</span>
+              <span class="skill-badge highlight">Python</span>
+              <span class="skill-badge">JavaScript</span>
+              <span class="skill-badge highlight">TypeScript</span>
+              <span class="skill-badge highlight">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <h3 class="skill-cat-title">Frontend</h3>
+            <div class="skill-items">
+              <span class="skill-badge highlight">React</span>
+              <span class="skill-badge highlight">TypeScript</span>
+              <span class="skill-badge highlight">Tailwind CSS</span>
+              <span class="skill-badge">HTML5</span>
+              <span class="skill-badge">CSS3</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <h3 class="skill-cat-title">Backend</h3>
+            <div class="skill-items">
+              <span class="skill-badge highlight">Node.js</span>
+              <span class="skill-badge">Express</span>
+              <span class="skill-badge highlight">Flask</span>
+              <span class="skill-badge highlight">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <h3 class="skill-cat-title">Database</h3>
+            <div class="skill-items">
+              <span class="skill-badge highlight">PostgreSQL</span>
+              <span class="skill-badge">SQLite</span>
+              <span class="skill-badge highlight">Supabase</span>
+              <span class="skill-badge highlight">Prisma</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <h3 class="skill-cat-title">AI / Computer Vision</h3>
+            <div class="skill-items">
+              <span class="skill-badge highlight">Gemini API</span>
+              <span class="skill-badge highlight">MediaPipe</span>
+              <span class="skill-badge highlight">OpenCV</span>
+              <span class="skill-badge">AI/ML Fundamentals</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <h3 class="skill-cat-title">Cloud / Tools</h3>
+            <div class="skill-items">
+              <span class="skill-badge highlight">AWS</span>
+              <span class="skill-badge highlight">Git</span>
+              <span class="skill-badge">GitHub</span>
+              <span class="skill-badge highlight">Arduino</span>
+              <span class="skill-badge">Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 Experience & Hackathons Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-num">04.</span>
+          <h2 class="section-title">Experience &amp; Hackathons</h2>
+        </div>
+
+        <div class="timeline">
+          <!-- Geminathon 2026 -->
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-tag">24-Hour Hackathon</span>
+              <span class="timeline-date">2026</span>
+            </div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">Geminathon 2026</h3>
+              <p class="timeline-subtitle">Natural Disaster Mitigation Track &bull; 24-Hour Sprint</p>
+              <p class="timeline-desc">
+                Built <strong>Sentinel</strong>, an AI-powered disaster response platform. Implemented automated emergency report triage and severity assessment using the Gemini API, built real-time crisis mapping, and coordinated victim-to-shelter resource dispatching.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Natural Disaster track solution leveraging Google Gemini API</li>
+                <li>AI severity assessment and multilingual crisis mapping</li>
+                <li>Resource and shelter coordination under 24-hour hackathon constraints</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- GDG Workshop -->
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-tag">Technical Workshop</span>
+              <span class="timeline-date">Developer Training</span>
+            </div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">Google Developer Groups Workshop</h3>
+              <p class="timeline-subtitle">CTRL + ML + ALT + DL</p>
+              <p class="timeline-desc">
+                Completed hands-on workshop focused on the fundamentals of Artificial Intelligence, Machine Learning, and Deep Learning pipelines.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Learned core principles of Artificial Intelligence and Machine Learning</li>
+                <li>Explored Deep Learning architectures, neural networks, and computer vision</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 Achievements Section -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-num">05.</span>
+          <h2 class="section-title">Achievements</h2>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <div class="achievement-header">
+              <span class="achievement-tag">Academics</span>
+            </div>
+            <div class="achievement-metric">9.53 CGPA</div>
+            <h3 class="achievement-title">Academic Excellence</h3>
+            <p class="achievement-subtitle">VIT Chennai</p>
+            <p class="achievement-desc">
+              Consistent academic record in Computer Science (Sem 1: 9.40 SGPA | Sem 2: 9.64 SGPA).
+            </p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-header">
+              <span class="achievement-tag">Algorithms</span>
+            </div>
+            <div class="achievement-metric">100+ Solved</div>
+            <h3 class="achievement-title">Problem Solving</h3>
+            <p class="achievement-subtitle">LeetCode (C / C++)</p>
+            <p class="achievement-desc">
+              Active problem solving focusing on Data Structures and algorithmic problem solving in C/C++.
+            </p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-header">
+              <span class="achievement-tag">Hackathon</span>
+            </div>
+            <div class="achievement-metric">24h Sprint</div>
+            <h3 class="achievement-title">Geminathon 2026</h3>
+            <p class="achievement-subtitle">Disaster Track</p>
+            <p class="achievement-desc">
+              Built and pitched Sentinel disaster crisis response platform under 24-hour constraints.
+            </p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-header">
+              <span class="achievement-tag">Engineering</span>
+            </div>
+            <div class="achievement-metric">Cross-Domain</div>
+            <h3 class="achievement-title">Project Building</h3>
+            <p class="achievement-subtitle">AI &bull; IoT &bull; Full Stack &bull; Cloud</p>
+            <p class="achievement-desc">
+              Built and shipped projects integrating computer vision models, microcontrollers, and relational databases.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-num">06.</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-main">
+            <div>
+              <span class="edu-tag">Undergraduate Degree</span>
+              <h3 class="edu-school">VIT Chennai</h3>
+              <p class="edu-degree">Computer Science and Engineering</p>
+            </div>
+            <div class="edu-cgpa-box">
+              <span class="cgpa-label">Cumulative GPA</span>
+              <span class="cgpa-val">9.53 <small>/ 10.0</small></span>
+            </div>
+          </div>
+
+          <div class="edu-semesters">
+            <div class="sem-item">
+              <span class="sem-name">Semester 1 SGPA:</span>
+              <span class="sem-score">9.40</span>
+            </div>
+            <div class="sem-item">
+              <span class="sem-name">Semester 2 SGPA:</span>
+              <span class="sem-score">9.64</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <span class="contact-eyebrow">07. Contact</span>
+          <h2 class="contact-title">Let's build something interesting.</h2>
+          <p class="contact-desc">
+            I'm always interested in interesting projects, hackathons, collaborations, and opportunities to learn and build.
+          </p>
+
+          <div class="contact-actions">
+            <a href="mailto:vaibhav.student@example.com" class="btn btn-primary" id="emailBtn">Email Me</a>
+            <button class="btn btn-secondary" id="copyEmailBtn">Copy Email</button>
+            <a href="resume.pdf" class="btn btn-ghost" id="contactResumeBtn" target="_blank" rel="noreferrer">Resume ↗</a>
+          </div>
+
+          <div class="contact-socials">
+            <a href="https://github.com/TheDevil79" target="_blank" rel="noreferrer" class="social-link">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/vaibhav-bisaria-3836a93b5/" target="_blank" rel="noreferrer" class="social-link">LinkedIn ↗</a>
+            <a href="mailto:vaibhav.student@example.com" class="social-link">vaibhav.student@example.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-copy">
+        &copy; 2026 Vaibhav. Handcrafted with clean semantic HTML &amp; CSS.
+      </p>
+      <div class="footer-links">
+        <a href="https://github.com/TheDevil79" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/vaibhav-bisaria-3836a93b5/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="#hero">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification for Email Copy -->
+  <div class="toast" id="toast">Email copied to clipboard!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
